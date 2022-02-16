@@ -11,6 +11,16 @@ h1 {
   text-align: center;
 }
 
+.smal-head {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 50px;
+
+}
+
 .img {
   height: 100%;
   width: 100%;
