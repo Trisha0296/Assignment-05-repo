@@ -1,0 +1,17 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: rgb(9, 9, 255);
+  font-size: 35px;
+  font-weight: bold;
+  background-color: darkgray;
+  padding: 5px;
+  text-align: center;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
