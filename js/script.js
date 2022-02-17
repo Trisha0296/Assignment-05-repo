@@ -9,16 +9,15 @@ document.getElementById('calculatorButton').addEventListener('click', function (
   const tatalBlances = parseFloat(incomeInput) - expensesOutput;
   document.getElementById('balanst-Output').innerText = tatalBlances;
 
-
 })
 
-//  
+//  saving part
 document.getElementById('Save-Button').addEventListener('click', function () {
   const saveInput = document.getElementById('save-input');
   const incomeInput = document.getElementById('income-input');
   const savingAmount = (parseFloat(incomeInput.value) * parseFloat(saveInput.value)) / 100;
   document.getElementById('saving-amount').innerText = savingAmount;;
-  // 
+  // remaining part
   const blancesOutout = document.getElementById('balanst-Output');
   const remainingBlances = parseFloat(blancesOutout.innerText) - savingAmount;
   document.getElementById('remaining-blances').innerText = remainingBlances;
