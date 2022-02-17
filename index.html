@@ -30,38 +30,53 @@
             <!-- income -->
             <div>
               <h2 class="smal-head">Income</h2>
-              <h3 class="fs-6 p-2">Income : <input class="text-center" placeholder="amount" type="text"
-                  id="income-input"></h3>
+              <div class="d-flex align-items-center mb-3">
+                <h3 class="fs-6 p-2 ">Income : </h3>
+                <input class="text-center w-75" placeholder="amount" type="text" id="income-input">
+              </div>
             </div>
             <!-- <br> -->
             <!-- cost-amount -->
             <div>
               <h2 class="smal-head">Expenses</h2>
-              <h3 class="fs-6 p-2">Food : <input class="text-center" placeholder="amount" type="text"></h3>
-              <h3 class="fs-6 p-1">Rent : <input class="text-center" placeholder="amount" type="text"></h3>
-              <h3 class="fs-6 p-1">Clothes : <input class="text-center" placeholder="amount" type="text"> </h3>
+              <div class="d-flex align-items-center mb-3">
+                <h3 class="fs-6 pe-5">Food :
+                </h3>
+                <input class="text-center form-control w-75" placeholder="amount" type="text" id="foodInput">
+              </div>
+
+              <div class="d-flex align-items-center mb-3">
+                <h3 class="fs-6 pe-5">Rent :
+                </h3>
+                <input class="text-center form-control w-75" placeholder="amount" type="text" id="rentInput">
+              </div>
+
+              <div class="d-flex align-items-center mb-3">
+                <h3 class="fs-6 pe-4">Clothes : </h3>
+                <input class="text-center form-control w-75" placeholder="amount" type="text" id="clothesInput">
+              </div>
             </div>
             <!-- cost-button -->
             <div class="pt-3">
-              <button type="button" class="btn btn-primary px-5" onclick="calculatorButton()">Calculate</button>
+              <button type="button" class="btn btn-primary px-5" id="calculatorButton">Calculate</button>
             </div>
             <!-- Total Expenses -->
             <div>
-              <h3 class="pt-3">Total Expenses: $<span id="income-output">00</span></h3>
-              <h4 class="pt-2">Balance: <span id="">00</span></h4>
+              <h3 class="pt-3">Total Expenses: $<span id="expenses-output">00</span></h3>
+              <h4 class="pt-2">Balance: <span id="balanst-Output">00</span></h4>
             </div>
             <!-- Saving Amount && Remaining Balance -->
-            <form>
-              <label for="">Saving Amount : </label>
-              <input id="" type="text" />
+            <div class="d-flex align-items-center">
+              <label class="pe-3" for="">Saving Amount : </label>
+              <input class=" form-control w-25" id="save-input" type="text" />
               <span class="p-1"> % </span>
-              <button class=" btn btn-primary" type="submit" id="">Save</button>
-            </form>
+              <button class=" btn btn-primary" type="submit" id="Save-Button">Save</button>
+            </div>
 
             <!-- Saving Amount-->
             <div>
-              <h3 class="pt-3 fs-5">Saving Amount : $<span id="">00</span></h3>
-              <h4 class="fs-5">Remaining Balance: <span id="">00</span></h4>
+              <h3 class="pt-3 fs-5">Saving Amount : $<span id="saving-amount">00</span></h3>
+              <h4 class="fs-5">Remaining Balance: <span id="remaining-blances">00</span></h4>
             </div>
           </div>
         </div>
