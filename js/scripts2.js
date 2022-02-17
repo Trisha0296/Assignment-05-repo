@@ -30,7 +30,7 @@ function subtraction(incomeBalanceInput, expenses, amountId) {
     document.getElementById(amountId).innerText = totalBalance;
     document.getElementById('expenses-output').innerText = expenses;
   } else {
-    alert('Sorry, your valid incorrect.....')
+    alert('Sorry, .')
   }
 
 }
@@ -55,7 +55,7 @@ document.getElementById('Save-Button').addEventListener('click', function () {
     document.getElementById('remaining-blances').innerText = remainingBlances;
 
   } else {
-    alert('You do not have enough money to save.......')
+    alert('You do not have enough money to .....')
   }
 
 })
