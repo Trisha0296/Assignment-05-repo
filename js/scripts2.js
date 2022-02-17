@@ -47,15 +47,15 @@ document.getElementById('Save-Button').addEventListener('click', function () {
   const savingAmount = (parseFloat(incomeInput.value) * parseFloat(saveInput.value)) / 100;
   const blancesOutout = document.getElementById('balanst-Output');
   const remainingBlances = parseFloat(blancesOutout.innerText) - savingAmount;
+  console.log(remainingBlances);
 
+  // //error handling
+  // if (parseInt(blancesOutout.innerText) > savingAmount) {
+  //   document.getElementById('saving-amount').innerText = savingAmount;;
+  //   document.getElementById('remaining-blances').innerText = remainingBlances;
 
-  //error handling
-  if (parseInt(blancesOutout.innerText) > savingAmount) {
-    document.getElementById('saving-amount').innerText = savingAmount;;
-    document.getElementById('remaining-blances').innerText = remainingBlances;
-
-  } else {
-    alert('You do not have enough money to .....')
-  }
+  // } else {
+  //   alert('You do not have enough money to .....')
+  // }
 
 })
