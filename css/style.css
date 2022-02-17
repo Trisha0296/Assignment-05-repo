@@ -25,3 +25,21 @@ h1 {
   height: 100%;
   width: 100%;
 }
+
+.saving-ammount-text {
+  margin-left: 15%;
+}
+
+.save-button {
+  color: rgb(250, 250, 255);
+  background-color: blue;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.calculate-button {
+  color: rgb(250, 250, 255);
+  background-color: blue;
+  border: 0px;
+  border-radius: 5px;
+}
