@@ -18,7 +18,7 @@
     <section>
       <!-- header -->
       <header>
-        <h1 class="fw-bold"> Monthly-Cost </i></h1>
+        <h1 class="fw-bold text-primary"> Monthly-Cost </i></h1>
       </header>
       <div class="container">
         <div class="row ">
@@ -30,7 +30,8 @@
             <!-- income -->
             <div>
               <h2 class="smal-head">Income</h2>
-              <h3 class="fs-6 p-2">Income : <input class="text-center" placeholder="amount" type="text"></h3>
+              <h3 class="fs-6 p-2">Income : <input class="text-center" placeholder="amount" type="text"
+                  id="income-input"></h3>
             </div>
             <!-- <br> -->
             <!-- cost-amount -->
@@ -40,13 +41,13 @@
               <h3 class="fs-6 p-1">Rent : <input class="text-center" placeholder="amount" type="text"></h3>
               <h3 class="fs-6 p-1">Clothes : <input class="text-center" placeholder="amount" type="text"> </h3>
             </div>
-            <!-- cost-amount -->
+            <!-- cost-button -->
             <div class="pt-3">
-              <button type="button" class="btn btn-primary px-5">Calculate</button>
+              <button type="button" class="btn btn-primary px-5" onclick="calculatorButton()">Calculate</button>
             </div>
             <!-- Total Expenses -->
             <div>
-              <h3 class="pt-3">Total Expenses: $<span id="">00</span></h3>
+              <h3 class="pt-3">Total Expenses: $<span id="income-output">00</span></h3>
               <h4 class="pt-2">Balance: <span id="">00</span></h4>
             </div>
             <!-- Saving Amount && Remaining Balance -->
