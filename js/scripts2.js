@@ -35,11 +35,6 @@ function subtraction(incomeBalanceInput, expenses, amountId) {
 
 }
 
-
-
-
-
-
 document.getElementById('calculatorButton').addEventListener('click', function () {
   expenses()
 
@@ -60,7 +55,7 @@ document.getElementById('Save-Button').addEventListener('click', function () {
     document.getElementById('remaining-blances').innerText = remainingBlances;
 
   } else {
-    alert('You do not have enough money to save')
+    alert('You do not have enough money to save.......')
   }
 
 })
